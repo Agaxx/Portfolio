@@ -398,7 +398,7 @@ i~p {
   margin: 0 auto;
 }
 
-h1 {
+h1.sign {
   color: rgb(247, 247, 247);
   font-size: 2rem;
   white-space: nowrap;
