@@ -10,11 +10,19 @@
         <link rel="shortcut icon" href="letter-a.png">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="contact">
             <nav>
                 <i class="fas fa-bars"></i>
+                <div class="hamburger">
+                    <ul class="hamburger">
+                        <li><a href="index.html">O mnie</a></li>
+                        <li><a href="travels.html">Podróże</a></li>
+                        <li><a href="contact.html">Kontakt </a></li>
+                    </ul>
+                </div>
                 <ul>
                     <li><a href="index.html">O mnie</a></li>
                     <li><a href="travels.html">Podróże</a></li>
@@ -100,5 +108,12 @@
                 </div>
             </div>
         </footer>
+        <script>
+            $(document).ready(function () {
+                $('.fa-bars').click(function () {
+                    $('.hamburger').stop().slideToggle(300);
+                });
+            });
+        </script>
     </body>
 </html>
