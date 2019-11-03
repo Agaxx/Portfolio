@@ -12,3 +12,5 @@ Podstawowe funkcjonalności:
 3. Footer - pasek social media - rolę stopki pełni pasek zawierający ikonki znanych social mediów, które są jednocześnie likami do poszczególnych portali.
 4. Mapa - Google Api - podstrona Podróże zawiera mapę odwiedzonych krajów (oznaczono je czerwonymi flagami). Mapa została stworzona z wykorzystaniem funkcjonalności Google Api.
 5. W zakładce Kontakt dostępny jest formularz kontaktowy, który składa się z inputów, w których należy wpisać dane użytkownika oraz treść wiadomości w polu typu textarea. Wysłanie wiadomości umożliwia przycisk Wyślij.
+6. Strona główna zawiera animowany tekst - napis (imię i nazwisko) wprowadzany jest z wykorzystaniem animacji @keyframes.
+7. W podstronie Podróże wykorzystane zostały efekty transform, opacity oraz transition w celu animacji zdjęć.
