@@ -242,6 +242,8 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-right: 10%;
+  position: relative;
 }
 
 form label {
@@ -270,6 +272,9 @@ input {
   color: rgb(243, 236, 236);
   font-weight: bold;
   letter-spacing: 1px;
+  position: absolute;
+  left: 55%;
+  margin-bottom: 10%;
 }
 
 .notform {
@@ -278,7 +283,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 5% auto;
+  margin: 10% auto;
   align-content: flex-start;
   border: red;
 }
@@ -302,6 +307,10 @@ i~p {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 5%;
+}
+
+.photos .foto {
+  margin: 10px;
 }
 
 .grid {
@@ -389,6 +398,22 @@ i~p {
   margin: 0 auto;
 }
 
+h1 {
+  color: rgb(247, 247, 247);
+  font-size: 2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 6.4em;
+  animation: type 4s steps(60, end);
+  margin: 0 auto;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 2.2rem;
@@ -439,7 +464,6 @@ i~p {
   form label {
     text-align: right;
   }
-}
 
   h1.cytat {
     display: inline-block;
@@ -461,3 +485,46 @@ i~p {
 .foto {
   width: 650px;
 }
+}
+
+@media (max-width: 650px) {
+  
+  .form .submit {
+    position: absolute;
+    left: 40%;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .form .submit {
+    position: absolute;
+    left: 34%;
+  }
+}
+
+@media (max-width: 1140px) {
+
+   .contact nav,
+   .travels nav,
+   .index nav {
+     margin-left: 10vw;
+   }
+  }
+
+  @media (max-width: 900px) and (min-width: 750px){
+
+    .contact nav,
+    .travels nav,
+    .index nav {
+      margin-left: 20vw;
+    }
+  }
+
+  @media (max-width: 749px) {
+
+    .contact nav, .travels nav, .index nav {
+      margin-left: 2%;
+    }
+  }
+
